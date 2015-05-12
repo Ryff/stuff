@@ -25,8 +25,7 @@ all: /home/builder/astonia3_server/server /home/builder/astonia3_server/runtime/
 /home/builder/astonia3_server/runtime/32/missions.dll /home/builder/astonia3_server/runtime/generic/clubmaster.dll \
 /home/builder/astonia3_server/runtime/33/tunnel.dll /home/builder/astonia3_server/runtime/34/teufel.dll \
 /home/builder/astonia3_server/runtime/37/arkhata.dll /home/builder/astonia3_server/create_account /home/builder/astonia3_server/create_character \
-/home/builder/astonia3_server/getid /home/builder/astonia3_server/testing \
-/home/builder/astonia3_server/admin_message
+
 
 CC=gcc
 DEBUG=-g
@@ -633,19 +632,8 @@ OBJS=/home/builder/astonia3_server/.obj/server.o /home/builder/astonia3_server/.
 /home/builder/astonia3_server/create_character:	create_character.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o /home/builder/astonia3_server/create_character create_character.c -lmysqlclient
 
-/home/builder/astonia3_server/getid:	getid.c
-	$(CC) $(CFLAGS) $(LDFLAGS) -o /home/builder/astonia3_server/getid getid.c -lmysqlclient
-
-/home/builder/astonia3_server/testing: testing.c
-	$(CC) $(CFLAGS) $(LDFLAGS) -o /home/builder/astonia3_server/testing testing.c -lmysqlclient
-
-/home/builder/astonia3_server/admin_message:	admin_message.c 
-	$(CC) $(CFLAGS) $(LDFLAGS) -o /home/builder/astonia3_server/admin_message -include admin_message.c chat.h
-
 
 # ------- Helper -----
 
 clean:
-	rm /home/builder/astonia3_server/server /home/builder/astonia3_server/.obj/*.o *~ /home/builder/astonia3_server/zones/*/*~ /home/builder/astonia3_server/runtime/*/* /home/builder/astonia3_server/chatserver /home/builder/astonia3_server/update_server /home/builder/astonia3_server/create_weapons /home/builder/astonia3_server/create_armor /home/builder/astonia3_server/create_account /home/builder/astonia3_server/create_character /home/builder/astonia3_server/getid /home/builder/astonia3_server/testing
-
-	
+	rm /home/builder/astonia3_server/server /home/builder/astonia3_server/.obj/*.o *~ /home/builder/astonia3_server/zones/*/*~ /home/builder/astonia3_server/runtime/*/* /home/builder/astonia3_server/chatserver /home/builder/astonia3_server/update_server /home/builder/astonia3_server/create_weapons /home/builder/astonia3_server/create_armor /home/builder/astonia3_server/create_account /home/builder/astonia3_server/create_character
