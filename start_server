@@ -1,0 +1,84 @@
+#!/bin/sh
+
+cd /home/builder/astonia3_server
+
+killall looping
+
+echo "Starting the Chatserver"
+/home/builder/astonia3_server/chatserver >/dev/null & 
+sleep1
+/home/builder/astonia3_server/server -a 1 -d
+sleep 1
+/home/builder/astonia3_server/server -a 2 -d
+sleep 1
+/home/builder/astonia3_server/server -a 3 -d
+sleep 1
+/home/builder/astonia3_server/server -a 4 -d
+sleep 1
+/home/builder/astonia3_server/server -a 5 -d
+sleep 1
+/home/builder/astonia3_server/server -a 6 -d
+sleep 1
+/home/builder/astonia3_server/server -a 7 -d
+sleep 1
+/home/builder/astonia3_server/server -a 8 -d
+sleep 1
+/home/builder/astonia3_server/server -a 9 -d
+sleep 1
+/home/builder/astonia3_server/server -a 10 -d
+sleep 1
+/home/builder/astonia3_server/server -a 11 -d
+sleep 1
+/home/builder/astonia3_server/server -a 12 -d
+sleep 1
+/home/builder/astonia3_server/server -a 13 -d
+sleep 1
+/home/builder/astonia3_server/server -a 14 -d
+sleep 1
+/home/builder/astonia3_server/server -a 15 -d
+sleep 1
+/home/builder/astonia3_server/server -a 16 -d
+sleep 1
+/home/builder/astonia3_server/server -a 17 -d
+sleep 1
+/home/builder/astonia3_server/server -a 18 -d
+sleep 1
+/home/builder/astonia3_server/server -a 19 -d
+sleep 1
+/home/builder/astonia3_server/server -a 20 -d
+sleep 1
+/home/builder/astonia3_server/server -a 21 -d
+sleep 1
+/home/builder/astonia3_server/server -a 22 -d
+sleep 1
+/home/builder/astonia3_server/server -a 23 -d
+sleep 1
+/home/builder/astonia3_server/server -a 24 -d
+sleep 1
+/home/builder/astonia3_server/server -a 25 -d
+sleep 1
+/home/builder/astonia3_server/server -a 26 -d
+sleep 1
+/home/builder/astonia3_server/looping & # a 27
+sleep1
+/home/builder/astonia3_server/server -a 28 -d
+sleep 1
+/home/builder/astonia3_server/server -a 29 -d
+sleep 1
+/home/builder/astonia3_server/server -a 30 -d
+sleep 1
+/home/builder/astonia3_server/server -a 31 -d
+sleep 1
+/home/builder/astonia3_server/server -a 32 -d
+sleep 1
+/home/builder/astonia3_server/server -a 33 -d
+sleep 1
+/home/builder/astonia3_server/server -a 34 -d
+sleep 1
+/home/builder/astonia3_server/server -a 35 -d
+sleep 1
+/home/builder/astonia3_server/server -a 36 -d
+sleep 1
+/home/builder/astonia3_server/server -a 37 -d
+sleep 1
+echo 'Astonia 3 Server Zones Loaded'
