@@ -227,7 +227,7 @@ static int cmd_complain(int cn,char *ptr)
 	}
 
 	if (!ppd->complaint_date) {
-		log_char(cn,LOG_SYSTEM,0,"캽3Complaints are meant as a way to complain about verbal attacks by another player, or to report a scam. If you wish to complain about something else, please email game@astonia.com. No complaint has been sent. Repeat the command if you still want to send your complaint.");
+		log_char(cn,LOG_SYSTEM,0,"째c3Complaints are meant as a way to complain about verbal attacks by another player, or to report a scam. If you wish to complain about something else, please email game@astonia.com. No complaint has been sent. Repeat the command if you still want to send your complaint.");
 		ppd->complaint_date=1;
 		return 1;
 	}
@@ -312,7 +312,7 @@ static int cmd_punish(int cn,char *ptr)		// 1=OK, 0=repeat
         sprintf(buf,"Punishment note from %s, %s punished with level %d for %s",ch[cn].staff_code,name,level,reason);
         write_scrollback(ch[cn].player,cn,buf,ch[cn].name,name);
 
-        sprintf(buf,"0000000000캽03Punishment: %s (%s) scheduled punishment for %s, level %d, reason: %s.",ch[cn].name,ch[cn].staff_code,name,level,reason);
+        sprintf(buf,"0000000000째c03Punishment: %s (%s) scheduled punishment for %s, level %d, reason: %s.",ch[cn].name,ch[cn].staff_code,name,level,reason);
         server_chat(31,buf);
 
         return 1;
@@ -349,7 +349,7 @@ static int cmd_shutup(int cn,char *ptr)		// 1=OK, 0=repeat
 	
         write_scrollback(ch[cn].player,cn,buf,ch[cn].name,name);
 
-        sprintf(buf,"0000000000캽03Shutup: %s (%s) scheduled shutup for %s, %d minutes.",ch[cn].name,ch[cn].staff_code,name,minutes);
+        sprintf(buf,"0000000000째c03Shutup: %s (%s) scheduled shutup for %s, %d minutes.",ch[cn].name,ch[cn].staff_code,name,minutes);
         server_chat(31,buf);
 
         return 1;
@@ -440,7 +440,7 @@ static int cmd_exterminate(int cn,char *ptr)
 	exterminate(ch[cn].ID,name,ch[cn].staff_code);
 	xlog("exterminate: %s by %s",name,ch[cn].name);
 
-	sprintf(buf,"0000000000캽03Exterminate: %s (%s) scheduled exterminate for %s.",ch[cn].name,ch[cn].staff_code,name);
+	sprintf(buf,"0000000000째c03Exterminate: %s (%s) scheduled exterminate for %s.",ch[cn].name,ch[cn].staff_code,name);
 	server_chat(31,buf);
 
 	return 1;
@@ -552,7 +552,7 @@ static int cmd_tell(int cn,char *ptr)
 	
 	register_sent_tell(cn,uID);
 	
-	tell_chat(ch[cn].ID,uID,(ch[cn].flags&(CF_STAFF|CF_GOD)) ? 1 : 0,"캽17%s캽18%s%s%s (%d) tells you: \"%s\"",
+	tell_chat(ch[cn].ID,uID,(ch[cn].flags&(CF_STAFF|CF_GOD)) ? 1 : 0,"째c17%s째c18%s%s%s (%d) tells you: \"%s\"",
 		sname,
 		(ch[cn].flags&CF_STAFF) ? " [" : "",
 		(ch[cn].flags&CF_STAFF) ? ch[cn].staff_code : "",
@@ -1008,6 +1008,7 @@ static void cmd_help(int cn)
 		log_char(cn,LOG_SYSTEM,0,"/staff <name>");
 		log_char(cn,LOG_SYSTEM,0,"/staffcode <name> <code>");
 		log_char(cn,LOG_SYSTEM,0,"/qmaster <name>");
+		log_char(cn,LOG_SYSTEM,0,"/psprite <name> <number>");
 	}
 }
 
@@ -1334,6 +1335,42 @@ void cmd_renclub(int cn,char *ptr)
 	log_char(cn,LOG_SYSTEM,0,"Club %d name changed to \"%s\".",cnr,name);
 }
 
+void cmd_psprite(int cn,char *ptr)
+{
+	int co,spr,n;
+	char buf[80];
+
+        while (isspace(*ptr)) ptr++;
+
+	if (isdigit(*ptr) || !*ptr) {
+		co=cn;
+		spr=atoi(ptr);
+	} else {
+		for (n=0; n<79; ) {
+			buf[n++]=*ptr++;
+			if (isspace(*ptr) || !*ptr) break;			
+		}
+		buf[n]=0;
+		for (co=getfirst_char(); co; co=getnext_char(co)) {
+			if (!strcasecmp(buf,ch[co].name)) break;
+		}
+		if (!co) {
+			log_char(cn,LOG_SYSTEM,0,"Sorry, no one by the name %s around.",buf);
+			return;
+		}
+		while (!isspace(*ptr) && *ptr) ptr++;
+		spr=atoi(ptr);
+	}
+	if (spr) {
+		ch[cn].sprite=spr;
+		set_sector(ch[cn].x,ch[cn].y);
+		
+		log_char(cn,LOG_SYSTEM,0,"Gave %s %d sprite.",ch[co].name,val);	
+	} else {
+		log_char(cn,LOG_SYSTEM,0,"Please enter a sprite number.");
+	}
+}
+
 int command(int cn,char *ptr)	// 1=ok, 0=repeat
 {
 	int len;
@@ -1572,8 +1609,8 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 	}
 
 	if ((len=cmdcmp(ptr,"sprite",6)) && (ch[cn].flags&CF_GOD)) {
-		int spr;
-
+		int co,spr;
+		
                 ptr+=len; while (isspace(*ptr)) ptr++;
 
 		spr=atoi(ptr);
@@ -1685,7 +1722,7 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 		} else {
                         if (ch[cn].level<10) log_char(cn,LOG_SYSTEM,0,"Sorry, you may not become a player killer before reaching level 10.");
 			else if (!(ch[cn].flags&CF_PAID)) log_char(cn,LOG_SYSTEM,0,"Sorry, only paying players may become player killers.");
-			else log_char(cn,LOG_SYSTEM,0,"캽3Please take a moment to consider this decision. If another player kills you, he will be able to take all your belongings, or kill you over and over again. Do you really want this? Type: '/iwilldie %d' to confirm.",ch[cn].ID);
+			else log_char(cn,LOG_SYSTEM,0,"째c3Please take a moment to consider this decision. If another player kills you, he will be able to take all your belongings, or kill you over and over again. Do you really want this? Type: '/iwilldie %d' to confirm.",ch[cn].ID);
 		}
 
 		log_char(cn,LOG_SYSTEM,0,"PK is %s.",(ch[cn].flags&CF_PK) ? "on" : "off");
@@ -2533,6 +2570,11 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 
 		return 1;
 	}
+	
+	if ((len=cmdcmp(ptr,"psprite",3)) && (ch[cn].flags&CF_GOD)) {
+                ptr+=len;
+		cmd_psprite(cn,ptr);
+	        return 1;
 
 	if ((len=cmdcmp(ptr,"exterminate",11)) && (ch[cn].flags&(CF_STAFF|CF_GOD))) {
 		ptr+=len; while (isspace(*ptr)) ptr++;
@@ -2616,7 +2658,7 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 			log_char(cn,LOG_SYSTEM,0,"Nr out of bounds.");
 			return 1;
 		}
-		if (val<0 || val>=22) {
+		if (val<0 || val>=25) {
 			log_char(cn,LOG_SYSTEM,0,"Val out of bounds.");
 			return 1;
 		}
@@ -2720,6 +2762,9 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 
 	return 1;
 }
+
+
+
 
 
 
