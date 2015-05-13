@@ -2,7 +2,7 @@
  *
  * command.c (C) 2001 D.Brockhaus
  *
- * Execution of player commands (#command or /command or simple say). Work in progress.
+ * Execution of player  commands (#command or /command or simple say). Work in progress.
  *
  * $Id: command.c,v 1.16 2008/03/24 11:20:55 devel Exp $
  *
