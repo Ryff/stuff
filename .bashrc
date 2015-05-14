@@ -1,6 +1,6 @@
 # .bashrc
 
-# User specific aliases and functions
+# User  specific aliases and functions
 
 # Source global definitions.
 if [ -f /etc/bashrc ]; then
