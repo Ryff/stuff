@@ -3,5 +3,9 @@ umask 000
 while true;
 do 
 	mv /home/builder/log0.txt /home/builder/log1.txt
+<<<<<<< HEAD
 	/home/builder/astonia3_serve/home/builder/astonia3_server/server -a 27 >/home/builder/log0.txt
+=======
+	/home/builder/astonia3_server/server -a 27 >/home/builder/log0.txt
+>>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
 done

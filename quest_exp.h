@@ -2,12 +2,21 @@
 
 $Id: quest_exp.h,v 1.2 2006/09/14 09:55:22 devel Exp $
 
+<<<<<<< HEAD
 $Log: quest_exp.h,v $
 Revision 1.2  2006/09/14 09:55:22  devel
 added questlog
 
 Revision 1.1  2005/09/24 09:55:48  ssim
 Initial revision
+=======
+$Log: quest_exp.h,v $
+Revision 1.2  2006/09/14 09:55:22  devel
+added questlog
+
+Revision 1.1  2005/09/24 09:55:48  ssim
+Initial revision
+>>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
 
 Revision 1.2  2003/10/13 14:12:39  sam
 Added RCS tags
@@ -15,6 +24,7 @@ Added RCS tags
 
 */
 
+<<<<<<< HEAD
 #define	EXP_AREA1_SKULL1	75
 #define EXP_AREA1_SKULL2	150	
 #define EXP_AREA1_SKULL3	300
@@ -36,6 +46,29 @@ Added RCS tags
 #define EXP_AREA3_MOONIES	5000
 #define EXP_AREA2_VAMPIRE1	5000	// 50% bonus if no money
 #define EXP_AREA2_VAMPIRE2	12000
+=======
+#define	EXP_AREA1_SKULL1	150
+#define EXP_AREA1_SKULL2	300	
+#define EXP_AREA1_SKULL3	600
+#define EXP_AREA1_JESTER	800
+#define EXP_AREA1_SKULL4	1600
+#define EXP_AREA1_BEARTOOTH	1200
+#define EXP_AREA1_MADMAGE1	1600
+#define EXP_AREA1_MADMAGE2	1800
+#define EXP_AREA1_MADKNIGHT	2400
+#define EXP_AREA1_GUILD		2500
+
+#define EXP_AREA3_SKULL1	1700
+#define EXP_AREA3_SKULL2	2000
+#define EXP_AREA3_SKULL3	2500
+#define EXP_AREA3_LOISAN	3000
+
+#define EXP_AREA3_CREEPER	1850
+#define EXP_AREA3_SHRINE	3000	// per shrine, 3 total
+#define EXP_AREA3_MOONIES	5000
+#define EXP_AREA2_VAMPIRE1	10000	// 50% bonus if no money
+#define EXP_AREA2_VAMPIRE2	24000
+>>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
 #define EXP_AREA3_REACHCLARA	2500
 #define EXP_AREA15_HARDKILL	7500
 #define EXP_AREA15_DIDKILL	22500
@@ -43,6 +76,7 @@ Added RCS tags
 #define EXP_AREA16_MANTIS	15000
 #define EXP_AREA16_SPIDERKILL	25000
 
+<<<<<<< HEAD
 #define MONEY_AREA1_SKULL1	125
 #define MONEY_AREA1_SKULL2	250
 #define MONEY_AREA1_SKULL3	400
@@ -53,6 +87,18 @@ Added RCS tags
 #define MONEY_AREA1_MADKNIGHT	550
 #define MONEY_AREA3_MOONIES	2500
 #define MONEY_AREA3_VAMPIRE1	2500
+=======
+#define MONEY_AREA1_SKULL1	150
+#define MONEY_AREA1_SKULL2	500
+#define MONEY_AREA1_SKULL3	800
+#define MONEY_AREA1_SKULL4	1200
+#define MONEY_AREA1_BEARTOOTH	1000
+#define MONEY_AREA1_MADMAGE1	500
+#define MONEY_AREA1_MADMAGE2	1000
+#define MONEY_AREA1_MADKNIGHT	1100
+#define MONEY_AREA3_MOONIES	5000
+#define MONEY_AREA3_VAMPIRE1	5000
+>>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
 
 
 

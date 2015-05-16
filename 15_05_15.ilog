@@ -103,3 +103,6 @@
 15.05.15 20:24:35 [001-01]: ID=2: Character entered server: unique=00094718, his ip=192.168.43.194, our ip=208.73.202.100 [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=126,179,IP=173.209.211.218]
 15.05.15 20:24:44 [001-01]: ID=2: Player left server [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=126,179]
 15.05.15 20:24:45 [001-01]: ID=2: Character left server [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=0,0]
+15.05.15 20:52:20 [001-01]: ID=2: Character entered server: unique=00094718, his ip=192.168.43.194, our ip=208.73.202.100 [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=126,179,IP=173.209.211.227]
+15.05.15 20:53:38 [001-01]: ID=2: Player left server [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=126,179]
+15.05.15 20:53:39 [001-01]: ID=2: Character left server [name=Ryff,level=1,saves=0,hp=10,end=10,mana=0,exp=0,gold=0,pos=0,0]
