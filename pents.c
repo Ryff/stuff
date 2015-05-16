@@ -272,7 +272,7 @@ static void add_pent(int cn,int in,int didsolve)
 	// lucky pent
 	if (!RANDOM(50)) {
 		log_char(cn,LOG_SYSTEM,0,"You got the lucky Pentagram!");
-		nppd->bonus+=value+RANDOM(value*3);
+		nppd->bonus+=value+RANDOM(value*5);
 	}
 
 	nppd->bonus+=level;
