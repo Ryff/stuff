@@ -8,6 +8,7 @@ sleep 1
 ./server -a 1 -d
 sleep 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 #./server -a 2 -d
 #sleep 1
 ./server -a 3 -d
@@ -45,6 +46,12 @@ sleep 1
 sleep 1
 ./server -a 3 -d
 sleep 1
+=======
+./server -a 2 -d
+sleep 1
+./server -a 3 -d
+sleep 1
+>>>>>>> 6315946b24abd5021d2e9eee44f6797b549e98ee
 ./server -a 4 -d
 sleep 1
 ./server -a 5 -d
@@ -113,6 +120,9 @@ sleep 1
 sleep 1
 ./server -a 37 -d
 sleep 1
+<<<<<<< HEAD
 >>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
+=======
+>>>>>>> 6315946b24abd5021d2e9eee44f6797b549e98ee
 echo DONE
 
