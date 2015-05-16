@@ -1,0 +1,260 @@
+15.05.15 19:46:34 [001-01]: Connect to database failed.
+15.05.15 19:46:35 [003-01]: Connect to database failed.
+15.05.15 20:04:04 [001-01]: Login to database as root OK
+15.05.15 20:04:04 [001-01]: Using existing database merc
+15.05.15 20:04:04 [001-01]: sweep_database: removed 0 characters
+15.05.15 20:04:04 [001-01]: Created background thread for database accesses
+15.05.15 20:04:04 [001-01]: Allocated sector 0: 0.25M (4*65536)
+15.05.15 20:04:04 [001-01]: Allocated sector 1: 0.06M (4*16384)
+15.05.15 20:04:04 [001-01]: Allocated sector 2: 0.02M (4*4096)
+15.05.15 20:04:04 [001-01]: Allocated sector 3: 0.00M (4*1024)
+15.05.15 20:04:04 [001-01]: Allocated sector 4: 0.00M (4*256)
+15.05.15 20:04:04 [001-01]: Allocated sector 5: 0.00M (4*64)
+15.05.15 20:04:04 [001-01]: Allocated sector 6: 0.00M (4*16)
+15.05.15 20:04:04 [001-01]: Allocated sector 7: 0.00M (4*4)
+15.05.15 20:04:04 [001-01]: Allocated char sector: 0.00M (4*1024)
+15.05.15 20:04:04 [001-01]: Allocated sound sector: 0.25M (4*65536)
+15.05.15 20:04:04 [001-01]: Allocated shout sector: 0.25M (4*65536)
+15.05.15 20:04:04 [001-01]: Allocated los: 1.28M (2624*512)
+15.05.15 20:04:04 [001-01]: Allocated map: 1.75M (28*65536)
+15.05.15 20:04:04 [001-01]: Allocated items: 4.45M (228*20480)
+15.05.15 20:04:04 [001-01]: Allocated characters: 0.11M (1092*512)
+15.05.15 20:04:04 [001-01]: Allocated item templates: 0.44M (308*1500)
+15.05.15 20:04:04 [001-01]: Allocated character templates: 0.31M (1276*256)
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/sidestory.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/tmp.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/randchest.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/weapons.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/swamp.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/adornments.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/grave.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/sun_amulet.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/ice_palace_key.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/orb.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/alchemy.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/cloth.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/caligar.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/spells.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/scroll.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/armor.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/mr_chairs.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/ring.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/mr_chestbox.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/runes.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/lab.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/mr_lights.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/metal.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/stack.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/torch.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/transport.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/clan.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/depot.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/mission_bonus.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/warr_keys.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/bonus_items.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/culture.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/recall.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/potions.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/mr_doors.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/moonies.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/teufelheim.itm".
+15.05.15 20:04:05 [003-01]: Login to database as root OK
+15.05.15 20:04:05 [003-01]: Using existing database merc
+15.05.15 20:04:05 [003-01]: sweep_database: removed 0 characters
+15.05.15 20:04:05 [003-01]: Created background thread for database accesses
+15.05.15 20:04:05 [003-01]: Allocated sector 0: 0.25M (4*65536)
+15.05.15 20:04:05 [003-01]: Allocated sector 1: 0.06M (4*16384)
+15.05.15 20:04:05 [003-01]: Allocated sector 2: 0.02M (4*4096)
+15.05.15 20:04:05 [003-01]: Allocated sector 3: 0.00M (4*1024)
+15.05.15 20:04:05 [003-01]: Allocated sector 4: 0.00M (4*256)
+15.05.15 20:04:05 [003-01]: Allocated sector 5: 0.00M (4*64)
+15.05.15 20:04:05 [003-01]: Allocated sector 6: 0.00M (4*16)
+15.05.15 20:04:05 [003-01]: Allocated sector 7: 0.00M (4*4)
+15.05.15 20:04:05 [003-01]: Allocated char sector: 0.00M (4*1024)
+15.05.15 20:04:05 [003-01]: Allocated sound sector: 0.25M (4*65536)
+15.05.15 20:04:05 [003-01]: Allocated shout sector: 0.25M (4*65536)
+15.05.15 20:04:05 [003-01]: Allocated los: 0.96M (2624*384)
+15.05.15 20:04:05 [003-01]: Allocated map: 1.75M (28*65536)
+15.05.15 20:04:05 [003-01]: Allocated items: 4.45M (228*20480)
+15.05.15 20:04:05 [003-01]: Allocated characters: 0.08M (1092*384)
+15.05.15 20:04:05 [003-01]: Allocated item templates: 0.44M (308*1500)
+15.05.15 20:04:05 [003-01]: Allocated character templates: 0.31M (1276*256)
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/sidestory.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/tmp.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/randchest.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/weapons.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/swamp.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/adornments.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/grave.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/sun_amulet.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/ice_palace_key.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/orb.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/alchemy.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/cloth.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/caligar.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/spells.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/scroll.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/armor.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/mr_chairs.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/ring.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/mr_chestbox.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/runes.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/lab.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/mr_lights.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/metal.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/stack.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/torch.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/transport.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/clan.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/depot.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/mission_bonus.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/warr_keys.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/bonus_items.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/culture.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/recall.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/potions.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/mr_doors.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/moonies.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/teufelheim.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_robber.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/3/above3_generic.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/macro.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_warlock.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/test.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_skeleton_maze.itm".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/sidestory.chr".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/generic/player.chr".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/3/above3_generic.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_guild.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/shrike.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/sign.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_village.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_mage_castle.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_mad.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_wood.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_city.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_knight_castle.itm".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/macro.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/test.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/sidestory.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/generic/player.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_knight_castle.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_exp2_dungeon.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_city.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_exp_dungron.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_mage_castle.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_robber.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_guild.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_wood.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_mad.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_village.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/shrike.chr".
+15.05.15 20:04:05 [003-01]: Processing zone "./zones/3/above3.map".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_warlock.chr".
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1_skeleton_maze.chr".
+15.05.15 20:04:05 [003-01]: Created 166 character and 1176 item templates
+15.05.15 20:04:05 [003-01]: Created 148 characters and 3063 items
+15.05.15 20:04:05 [003-01]: Calculating daylight
+15.05.15 20:04:04 [001-01]: Processing zone "./zones/1/above1.map".
+15.05.15 20:04:04 [001-01]: Created 139 character and 1249 item templates
+15.05.15 20:04:04 [001-01]: Created 292 characters and 1697 items
+15.05.15 20:04:04 [001-01]: Calculating daylight
+15.05.15 20:04:04 [001-01]: Allocated libs: 0.01M (96*100)
+15.05.15 20:04:04 [001-01]: Allocated fast_chdrvs: 0.00M (4*200)
+15.05.15 20:04:04 [001-01]: Allocated fast_itdrvs: 0.00M (4*200)
+15.05.15 20:04:05 [003-01]: Allocated libs: 0.01M (96*100)
+15.05.15 20:04:05 [003-01]: Allocated fast_chdrvs: 0.00M (4*200)
+15.05.15 20:04:05 [003-01]: Allocated fast_itdrvs: 0.00M (4*200)
+15.05.15 20:04:04 [001-01]: Allocated players: 0.00M (4*256)
+15.05.15 20:04:04 [001-01]: Size of player data: 150956 bytes
+15.05.15 20:04:04 [001-01]: IO Init done: ID=1 (212.202.240.67:5556)
+15.05.15 20:04:04 [001-01]: Allocated nmap: 0.25M (4*65536)
+15.05.15 20:04:04 [001-01]: Allocated nodes: 0.12M (32*4096)
+15.05.15 20:04:04 [001-01]: Allocated effects: 1.09M (1112*1024)
+15.05.15 20:04:04 [001-01]: Allocated containers: 0.46M (468*1024)
+15.05.15 20:04:04 [001-01]: Allocated store: 0.00M (4*64)
+15.05.15 20:04:04 [001-01]: Calculating shout sectors
+15.05.15 20:04:04 [001-01]: 10 shout sectors found
+15.05.15 20:04:04 [001-01]: Calculating talk sectors
+15.05.15 20:04:04 [001-01]: 195 talk sectors found
+15.05.15 20:04:04 [001-01]: Allocated sector2: 0.00M (8*196)
+15.05.15 20:04:04 [001-01]: AreaID=1, AreaM=1, entering game loop...
+15.05.15 20:04:10 [001-01]: reset plronh 50
+15.05.15 20:04:10 [001-01]: Read MotD
+15.05.15 20:04:05 [003-01]: Allocated players: 0.00M (4*256)
+15.05.15 20:04:05 [003-01]: Size of player data: 150956 bytes
+15.05.15 20:04:05 [003-01]: IO Init done: ID=1 (212.202.240.67:5557)
+15.05.15 20:04:05 [003-01]: Allocated nmap: 0.25M (4*65536)
+15.05.15 20:04:05 [003-01]: Allocated nodes: 0.12M (32*4096)
+15.05.15 20:04:05 [003-01]: Allocated effects: 1.09M (1112*1024)
+15.05.15 20:04:05 [003-01]: Allocated containers: 0.46M (468*1024)
+15.05.15 20:04:05 [003-01]: Allocated store: 0.00M (4*64)
+15.05.15 20:04:05 [003-01]: Calculating shout sectors
+15.05.15 20:04:05 [003-01]: 43 shout sectors found
+15.05.15 20:04:05 [003-01]: Calculating talk sectors
+15.05.15 20:04:05 [003-01]: 216 talk sectors found
+15.05.15 20:04:05 [003-01]: Allocated sector2: 0.00M (8*217)
+15.05.15 20:04:05 [003-01]: AreaID=3, AreaM=1, entering game loop...
+15.05.15 20:04:10 [003-01]: Read MotD
+15.05.15 20:04:10 [003-01]: reset plronh 50
+15.05.15 20:04:10 [003-01]: clan The Lords, paid 30 jewels
+15.05.15 20:04:10 [003-01]: clan The Lords is broke, removing
+15.05.15 20:04:10 [003-01]: clan Arrogance, paid 17 jewels
+15.05.15 20:04:10 [003-01]: clan Arrogance is broke, removing
+15.05.15 20:04:10 [003-01]: clan Counter Strike is broke, removing
+15.05.15 20:04:10 [003-01]: clan The Flameseeker Prophecies, paid 3 jewels
+15.05.15 20:04:10 [003-01]: clan The Flameseeker Prophecies is broke, removing
+15.05.15 20:04:10 [003-01]: clan Quarantine, paid 128 jewels
+15.05.15 20:04:10 [003-01]: clan Quarantine is broke, removing
+15.05.15 20:04:10 [003-01]: clan Royal Kingdom, paid 57 jewels
+15.05.15 20:04:10 [003-01]: clan Royal Kingdom is broke, removing
+15.05.15 20:04:10 [003-01]: clan The Dirty Dozen, paid 177 jewels
+15.05.15 20:04:10 [003-01]: clan The Dirty Dozen is broke, removing
+15.05.15 20:04:10 [003-01]: clan Execution, paid 10 jewels
+15.05.15 20:04:10 [003-01]: clan Execution is broke, removing
+15.05.15 20:04:10 [003-01]: clan Divine Prophecy, paid 1664 jewels
+15.05.15 20:04:10 [003-01]: clan Roman Imperia, paid 10 jewels
+15.05.15 20:04:10 [003-01]: clan Roman Imperia is broke, removing
+15.05.15 20:04:10 [003-01]: clan The Fifth Dimension, paid 1665 jewels
+15.05.15 20:04:10 [003-01]: clan Divine Phantoms, paid 159 jewels
+15.05.15 20:04:10 [003-01]: clan Divine Phantoms is broke, removing
+15.05.15 20:04:10 [003-01]: clan Crazy Danes, paid 1665 jewels
+15.05.15 20:04:10 [003-01]: clan Don't Cry 4 Pain, paid 224 jewels
+15.05.15 20:04:10 [003-01]: clan Don't Cry 4 Pain is broke, removing
+15.05.15 20:04:10 [003-01]: clan 16, new training score 356
+15.05.15 20:04:10 [003-01]: clan 22, new training score 0
+15.05.15 20:04:10 [003-01]: clan 24, new training score 0
+15.05.15 20:15:52 [001-01]: password for ID=1 (Ishtar) is wrong
+15.05.15 20:16:15 [001-01]: processing task 1
+15.05.15 20:16:15 [001-01]: set task: start for ID=2, task=5
+15.05.15 20:16:15 [001-01]: set task: checking DB for ID=2, task=5
+15.05.15 20:16:15 [001-01]: set task: updating for ID=2, task=5
+15.05.15 20:16:15 [001-01]: set task: lock=0, kick=0 for ID=2, task=5
+15.05.15 20:16:15 [001-01]: set task: db update done for ID=2, task=5
+15.05.15 20:16:15 [001-01]: set task: done for ID=2, task=5
+15.05.15 20:16:15 [001-01]: deleted task 1, done
+15.05.15 20:16:26 [001-01]: processing task 2
+15.05.15 20:16:26 [001-01]: set task: start for ID=3, task=5
+15.05.15 20:16:26 [001-01]: set task: checking DB for ID=3, task=5
+15.05.15 20:16:26 [001-01]: set task: updating for ID=3, task=5
+15.05.15 20:16:26 [001-01]: set task: lock=0, kick=0 for ID=3, task=5
+15.05.15 20:16:26 [001-01]: set task: db update done for ID=3, task=5
+15.05.15 20:16:26 [001-01]: set task: done for ID=3, task=5
+15.05.15 20:16:26 [001-01]: deleted task 2, done
+15.05.15 20:16:37 [001-01]: processing task 3
+15.05.15 20:16:37 [001-01]: set task: start for ID=2, task=5
+15.05.15 20:16:37 [001-01]: set task: checking DB for ID=2, task=5
+15.05.15 20:16:37 [001-01]: set task: updating for ID=2, task=5
+15.05.15 20:16:37 [001-01]: set task: lock=0, kick=0 for ID=2, task=5
+15.05.15 20:16:37 [001-01]: set task: db update done for ID=2, task=5
+15.05.15 20:16:37 [001-01]: set task: done for ID=2, task=5
+15.05.15 20:16:37 [001-01]: deleted task 3, done
+15.05.15 20:16:47 [001-01]: processing task 4
+15.05.15 20:16:47 [001-01]: set task: start for ID=3, task=5
+15.05.15 20:16:47 [001-01]: set task: checking DB for ID=3, task=5
+15.05.15 20:16:47 [001-01]: set task: updating for ID=3, task=5
+15.05.15 20:16:47 [001-01]: set task: lock=0, kick=0 for ID=3, task=5
+15.05.15 20:16:47 [001-01]: set task: db update done for ID=3, task=5
+15.05.15 20:16:47 [001-01]: set task: done for ID=3, task=5
+15.05.15 20:16:47 [001-01]: deleted task 4, done
+15.05.15 20:17:22 [003-01]: rename: Ishtar to Xanthos by Ishtar
