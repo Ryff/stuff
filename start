@@ -7,51 +7,10 @@ echo chatserver
 sleep 1
 ./server -a 1 -d
 sleep 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-#./server -a 2 -d
-#sleep 1
-./server -a 3 -d
-sleep 1
-#./server -a 13 -d
-#sleep 1
-#./server -a 14 -d
-#sleep 1
-#./server -a 15 -d
-#sleep 1
-#./server -a 16 -d
-#sleep 1
-#./server -a 17 -d
-#sleep 1
-#./server -a 19 -d
-#sleep 1
-#./server -a 26 -d
-#sleep 1
-./looping & # a 27
-sleep 1
-#./server -a 28 -d
-#sleep 1
-#./server -a 29 -d
-#sleep 1
-#./server -a 30 -d
-#sleep 1
-#./server -a 35 -d
-#sleep 1
-#./server -a 36 -d
-#sleep 1
-#./server -a 37 -d
-#sleep 1
-=======
 ./server -a 2 -d
 sleep 1
 ./server -a 3 -d
 sleep 1
-=======
-./server -a 2 -d
-sleep 1
-./server -a 3 -d
-sleep 1
->>>>>>> 6315946b24abd5021d2e9eee44f6797b549e98ee
 ./server -a 4 -d
 sleep 1
 ./server -a 5 -d
@@ -120,9 +79,5 @@ sleep 1
 sleep 1
 ./server -a 37 -d
 sleep 1
-<<<<<<< HEAD
->>>>>>> 7c968bfce5b805c8bb423d04250708ef91f7928a
-=======
->>>>>>> 6315946b24abd5021d2e9eee44f6797b549e98ee
 echo DONE
 
