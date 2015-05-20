@@ -2535,7 +2535,7 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
 		return 1;
 	}
 
-	if ((len=cmdcmp(ptr,"exterminate",11)) && (ch[cn].flags&(CF_GOD)) {
+	if ((len=cmdcmp(ptr,"exterminate",11)) && (ch[cn].flags&(CF_GOD))) {
 		ptr+=len; while (isspace(*ptr)) ptr++;
                 return cmd_exterminate(cn,ptr);
 	}
