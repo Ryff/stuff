@@ -2540,7 +2540,7 @@ int command(int cn,char *ptr)	// 1=ok, 0=repeat
                 return cmd_exterminate(cn,ptr);
 	}
 
-	if ((len=cmdcmp(ptr,"respawn",7)) && (ch[cn].flags&CF_GOD))) {
+	if ((len=cmdcmp(ptr,"respawn",7)) && (ch[cn].flags&CF_GOD)) {
 		respawn_check();
                 return 1;
 	}
